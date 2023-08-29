@@ -139,9 +139,8 @@ public class cwh_39_practice_problem_set_8{
 
 //////////////////////////////////////////////////////////////////////////////////////////
 
-/* */
-
-
+/* 
+ 
 //problem 5
 class TommyVecetti{
     public void hitting() {
@@ -165,6 +164,11 @@ public class cwh_39_practice_problem_set_8 {
         outcome.running();
         outcome.firing();
         
-
+        
     }
 }
+
+
+ */
+
+ 
