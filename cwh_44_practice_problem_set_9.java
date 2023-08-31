@@ -19,11 +19,11 @@ class cylinder {
     }
 
     public double surfaceArea() {
-        return (2 * 3.14 * radius * height) + (2 * 3.14 * radius * radius);
+        return (2 * Math.PI * radius * height) + (2 * 3.14 * radius * radius);
     }
 
     public double volume() {
-        return 3.14 * radius * radius * height;
+        return Math.PI * radius * radius * height;
     }
 }
 
