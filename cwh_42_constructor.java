@@ -6,6 +6,13 @@ class employee {
         id = 4009;
         name = "Anup Kumar Bhadra";
     }
+
+    public employee(String myName, int myId) {
+        id = myId;
+        name = myName;
+    }
+
+
                 
     public void setName(String n) {
         name = n;
@@ -26,7 +33,7 @@ class employee {
 
 public class cwh_42_constructor {
     public static void main(String[] args) {
-        employee anup = new employee();
+        employee anup = new employee("arup kumar bhadra",26);
         System.out.println(anup.getID());
         System.out.println(anup.getName());
     }
