@@ -17,6 +17,14 @@ class cylinder {
     public int getHeight() {
         return height;
     }
+
+    public double surfaceArea() {
+        return (2 * 3.14 * radius * height) + (2 * 3.14 * radius * radius);
+    }
+
+    public double volume() {
+        return 3.14 * radius * radius * height;
+    }
 }
 
 public class cwh_44_practice_problem_set_9 {
@@ -28,5 +36,8 @@ public class cwh_44_practice_problem_set_9 {
 
         System.out.println(result.getRadius());
         System.out.println(result.getHeight());
+
+        System.out.println(result.surfaceArea());
+        System.out.println(result.volume());
     }
 }
