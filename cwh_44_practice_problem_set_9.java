@@ -44,7 +44,7 @@ public class cwh_44_practice_problem_set_9 {
         // System.out.println(result.getRadius());
         // System.out.println(result.getHeight());
 
-        System.out.println(result.surfaceArea());
+        System.out.println("The Surface area of cylinder" + result.surfaceArea());
         System.out.println("The volume of cylinder is "+result.volume());
     }
 }
