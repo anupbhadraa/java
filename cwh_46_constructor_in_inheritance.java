@@ -5,6 +5,10 @@ class Base1 {
         System.out.println("i am a constructor");
     } 
 
+    public Base1(int a) {
+        System.out.println("i am an overloaded constructor with a value of a as: "+a); 
+    }
+
     public void setx(int x) {
         this.x = x;
     }
@@ -19,6 +23,7 @@ class Derived1 extends Base1 {
     public int y;
 
     public Derived1() {
+        super(0);
         System.out.println("i am a Derived1 class constructor");
     }
 
