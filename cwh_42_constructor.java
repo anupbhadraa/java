@@ -1,13 +1,13 @@
-class employee {
+class employee01 {
     private int id;
     private String name;
 
-    public employee() {
+    public employee01() {
         id = 4009;
         name = "Anup Kumar Bhadra";
     }
 
-    public employee(String myName, int myId) {
+    public employee01(String myName, int myId) {
         id = myId;
         name = myName;
     }
@@ -33,7 +33,7 @@ class employee {
 
 public class cwh_42_constructor {
     public static void main(String[] args) {
-        employee anup = new employee("arup kumar bhadra",26);
+        employee01 anup = new employee01("arup kumar bhadra",26);
         System.out.println(anup.getID());
         System.out.println(anup.getName());
     }
