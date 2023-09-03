@@ -1,12 +1,13 @@
 class a {
-    a() {
-        System.out.println("I am a viewer");
+    a(int a) {
+        System.out.println("I am a viewer" +a);
     }
 }
 
 class b extends a{
     
     b() {
+        super(1);
         System.out.println("I am a learner");
     }
 }
