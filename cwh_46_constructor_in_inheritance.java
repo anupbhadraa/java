@@ -8,6 +8,10 @@ class Base1 {
     public Base1(int x) {
         System.out.println("i am an overloaded constructor with a value of a as: "+x); 
     }
+
+    public Base1(int x,int y) {
+        System.out.println("constructor "+ x); 
+    }
     
 
     public void setx(int x) {
@@ -48,7 +52,7 @@ class childOFDerived extends Derived1 {
     }
 
     childOFDerived(int x, int y, int z) {
-        super(x, y);
+        super(3, 4);
         System.out.println("I am an overloaded constructor of Derived with value of z as: " + z);
     }
 }
